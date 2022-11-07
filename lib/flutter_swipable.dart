@@ -129,7 +129,7 @@ class SwipableState extends State<Swipable> {
             onPanStart: _onPanStart,
             onPanEnd: _onPanEnd,
             onPanUpdate: _onPanUpdate,
-            child: Stack(overflow: Overflow.visible, children: [
+            child: Stack(children: [
               AnimatedPositioned(
                   duration: Duration(milliseconds: _duration),
                   top: _positionY,
